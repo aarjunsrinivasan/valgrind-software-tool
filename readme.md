@@ -11,7 +11,9 @@ The valgrind command is used to identify memory leaks, uninitialized variables i
 Kcachegrind is used to visualize the callgrind.out file. 
 ms_print is used to produce a visualization of massif.out in the terminal.
 
-All the output file are in the "Results" directory.
+Find initial_errors.txt solved-errors.txt to compare and see the error outputs
+Find kcachegrind30022.png for profiler output
+Check results folder for cppcheck cpplint and massif.out outputs
 
 The cpp-boilerplate is a simple starter C++ project with:
 
